@@ -1,0 +1,30 @@
+{
+    "name": "zepaulo45/phpmailer",
+    "description": "teste",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jose Paulo",
+            "email": "zepaulo45@hotmail.com",
+            "role": "Developer",
+            "homepage": "https://hox.com.br"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require":{
+        "phpmailer/phpmailer": "6.0.*"
+    },
+    "minimum-stability": "stable"
+  
+}
