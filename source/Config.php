@@ -9,10 +9,10 @@
 
 // SERVIÇO DE EMAIL PELO SENDGRID
 define("MAIL", [
-    "host"      => "smtp.sendgrid.net",
+    "host"      => "",
     "port"      => "587",
     "user"      => "",
     "passwd"    => "",
     "from_name" => "Ti Maritucs",
-    "from_email" => "ti@maritucs.com.br",
+    "from_email" => "",
 ]);
