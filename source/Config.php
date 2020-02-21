@@ -20,8 +20,8 @@
 define("MAIL", [
     "host"      => "smtp.sendgrid.net",
     "port"      => "587",
-    "user"      => "apikey",
-    "passwd"    => "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",
+    "user"      => "",
+    "passwd"    => "",
     "from_name" => "Ti Maritucs",
     "from_email" => "ti@maritucs.com.br",
 ]);
